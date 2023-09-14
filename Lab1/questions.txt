@@ -1,7 +1,8 @@
+apradeep
+1578030
+
 Question 1
-
-https://github.com/anujpradeep
-
+https://github.com/anujpradeep/CMPUT404_Lab1
 
 Question 2
 2.31.0
@@ -16,7 +17,14 @@ Question 5
 The status code we get is 301. You will have to go to "http://www.google.com/" for a 200 Status code
 
 Question 6
-418 is returned. Using either flag will return the same status code. 
+418 is returned. Using either flag will return the same status code.
+
+using `curl http://www.google.com/teapot` will GET the webpage.
 
 Question 7
--X POST changes the REQUEST_METHOD to be POST instead of GET
+-X POST changes the REQUEST_METHOD to be POST instead of GET(by default). you are also giving data in the request.
+
+This method will be useful when sending a response to the webpage/server, changing the infomation/state of the webpage. 
+
+Question 8
+https://raw.githubusercontent.com/anujpradeep/CMPUT404_Lab1/main/Lab1/lab1.py

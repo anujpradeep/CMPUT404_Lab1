@@ -1,0 +1,22 @@
+Question 1
+
+https://github.com/anujpradeep
+
+
+Question 2
+2.31.0
+
+Question 3
+2.31.0
+
+Question 4
+The version numbers are the same
+
+Question 5
+The status code we get is 301. You will have to go to "http://www.google.com/" for a 200 Status code
+
+Question 6
+418 is returned. Using either flag will return the same status code. 
+
+Question 7
+-X POST changes the REQUEST_METHOD to be POST instead of GET

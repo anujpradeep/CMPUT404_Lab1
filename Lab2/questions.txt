@@ -1,0 +1,32 @@
+Question 1:
+    You can specify a TCP socket when in initializing a socket in python is by using socket.SOCK_STREAM, and socket.AF_INET for IPv4.
+
+Question 2:
+    client initializes, server listens
+
+    client makes the request server responds
+
+
+Question 3:
+    setsockopt(). SOL_SOCKET -->
+                  SO_REUSEADDR --> setting to 1
+
+    allows to use the same bind port 
+
+
+
+Question 4:
+ip of the client and the port of the client
+
+
+
+
+
+Question 5:
+
+
+
+
+
+step 8 --> need threads
+Question 6:

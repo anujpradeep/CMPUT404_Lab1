@@ -1,32 +1,28 @@
 Question 1:
-    You can specify a TCP socket when in initializing a socket in python is by using socket.SOCK_STREAM, and socket.AF_INET for IPv4.
+    You can specify a TCP socket when in initializing a socket in python is by using socket.SOCK_STREAM.
 
 Question 2:
-    client initializes, server listens
+    client initializes the socket, server listens to the socket.
 
-    client makes the request server responds
+    client makes the request server responds to the request
 
 
 Question 3:
-    setsockopt(). SOL_SOCKET -->
-                  SO_REUSEADDR --> setting to 1
+    setsockopt(). SOL_SOCKET --> the level, in this case, socket level
+                  SO_REUSEADDR --> the option to enable or disable reusing the same address
+                  1 --> setting SO_REUSEADDR to true
 
-    allows to use the same bind port 
-
-
+    It allows us to use the same bind port for multiple sockets. 
 
 Question 4:
-ip of the client and the port of the client
 
+conn, addr = server_socket.accept()
 
-
+It returns the client socket and the IP address and port number of that socket. the client socket (conn) also contains the IP Address and port number
 
 
 Question 5:
+recv() is a function used to receive data from the socket and takes the Buffer size as an argument. The received data could be bigger than the buffer, so we loop through it to make sure we get everything.
 
 
-
-
-
-step 8 --> need threads
 Question 6:
